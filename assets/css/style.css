@@ -138,6 +138,7 @@ p {
 	width: 10%;
 	top: 35%;
 	left: 20%;
+    border: 2px solid #efefef;
 }
 
 .screen {
@@ -153,6 +154,7 @@ p {
 	height: 85%;
 	width: 20%;
 	background: #264653;
+    border:2px solid #efefef;
 }
 
 .screen .back {
@@ -162,6 +164,10 @@ p {
 	background: #264653;
 	left: 20%;
 	top: 9%;
+    z-index: 30;
+    border-top:2px solid #efefef;
+    border-right:2px solid #efefef;
+    border-bottom: 2px solid #efefef;
 }
 .hands {
 	position: absolute;
